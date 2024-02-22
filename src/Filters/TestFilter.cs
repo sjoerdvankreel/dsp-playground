@@ -26,6 +26,9 @@
             _integrate += x * whatIsThis;
             _s++;
             return _integrate / _s;
+
+            // TODO add multimode LP/HP here
+            // seems doable
         }
     }
 }
