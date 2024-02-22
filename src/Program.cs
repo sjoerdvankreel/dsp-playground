@@ -41,7 +41,7 @@ namespace DspPlayground
         static UserData MakeUserData()
         {
             var result = new UserData();
-            result.Filter = new NoFilter();
+            result.Filter = new TestFilter();
             result.Saw = new Saw(SampleRate);
             return result;
         }
